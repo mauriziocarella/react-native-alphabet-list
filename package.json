@@ -1,7 +1,7 @@
 {
   "name": "react-native-alphabet-list",
   "title": "React Native Alphabet List",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,8 @@
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Maurizio Carella",
+    "email": "maurizio.carella27@gmail.com"
   },
   "license": "Apache-2.0",
   "licenseFilename": "LICENSE",
