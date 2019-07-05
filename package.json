@@ -1,0 +1,36 @@
+{
+  "name": "react-native-alphabet-list",
+  "title": "React Native Alphabet List",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-alphabet-list.git",
+    "baseUrl": "https://github.com/github_account/react-native-alphabet-list"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "yourname@email.com"
+  },
+  "license": "Apache-2.0",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "16.2.0",
+    "react-native": "^0.52.0",
+    "react-native-windows": "0.52.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.5",
+    "prop-types": "^15.7.2",
+    "react": "16.8.3",
+    "react-native": "^0.52.0"
+  }
+}
