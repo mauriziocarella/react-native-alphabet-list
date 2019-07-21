@@ -1,0 +1,5 @@
+node_modules/
+
+example/node_modules/
+example/ios/build/
+example/android/app/build/

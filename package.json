@@ -1,7 +1,7 @@
 {
-  "name": "react-native-alphabet-list",
-  "title": "React Native Alphabet List",
-  "version": "0.1.0",
+  "name": "react-native-sorted-list",
+  "title": "React Native Sorted List",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-alphabet-list.git",
-    "baseUrl": "https://github.com/github_account/react-native-alphabet-list"
+    "url": "git+https://github.com/mauriziocarella/react-native-sorted-list.git",
+    "baseUrl": "https://github.com/mauriziocarella/react-native-sorted-list"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "sorted",
+    "list",
+    "alphabet"
   ],
   "author": {
     "name": "Maurizio Carella",

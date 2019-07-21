@@ -8,7 +8,7 @@
 
 import React from 'react';
 import {StyleSheet, Text, View, SafeAreaView} from 'react-native';
-import AlphabetList from "../index";
+import SortedList from "../index";
 
 export default class App extends React.Component {
 	constructor(props) {
@@ -36,7 +36,7 @@ export default class App extends React.Component {
 	render() {
 		return (
 			<SafeAreaView style={[styles.container]}>
-				<AlphabetList
+				<SortedList
 					data={this.state.countries}
 					keyExtractor={this.keyExtractor}
 					renderItem={this.renderItem}

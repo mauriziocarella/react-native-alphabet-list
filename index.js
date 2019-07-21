@@ -2,7 +2,7 @@ import React from "react";
 import {View, StyleSheet, Text, FlatList, PanResponder, Animated} from "react-native";
 import PropTypes from "prop-types";
 
-class AlphabetList extends FlatList {
+class SortedList extends FlatList {
 	constructor(props) {
 		super(props);
 
@@ -211,7 +211,7 @@ class AlphabetList extends FlatList {
 	}
 }
 
-AlphabetList.propTypes = {
+SortedList.propTypes = {
 	animated: PropTypes.bool,
 	onScrollToIndexFailed: PropTypes.func,
 	itemKey: PropTypes.string,
@@ -226,7 +226,7 @@ AlphabetList.propTypes = {
 	]),
 };
 
-AlphabetList.defaultProps = {
+SortedList.defaultProps = {
 	animated: false,
 	onScrollToIndexFailed: () => {},
 	itemKey: '',
@@ -237,7 +237,7 @@ AlphabetList.defaultProps = {
 	activeLetterTextStyle: {},
 };
 
-export default AlphabetList;
+export default SortedList;
 
 const styles = StyleSheet.create({
 	container: {

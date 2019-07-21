@@ -2,11 +2,11 @@
 
 ## Getting started
 
-`$ npm install react-native-alphabet-list --save`
+`$ npm install react-native-sorted-list --save`
 
 **or**
 
-`$ yarn add react-native-alphabet-list`
+`$ yarn add react-native-sorted-list`
 
 ## ScreenShot
 
@@ -14,9 +14,9 @@
 
 ## Usage
 ```javascript
-import AlphabetList from "react-native-alphabet-list";
+import SortedList from "react-native-sorted-list";
 
-<AlphabetList
+<SortedList
     data={this.state.items}
     keyExtractor={this.keyExtractor}
     renderItem={this.renderItem}
