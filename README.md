@@ -1,4 +1,4 @@
-# react-native-alphabet-list
+# react-native-sorted-list
 
 ## Getting started
 
